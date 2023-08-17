@@ -16,7 +16,7 @@ docker-compose up -d
 ### Optional kafka message producer container
 ```
 docker exec --interactive --tty kafka1  \
-kafka-console-prodecer --bootstrap-server localhost:9092,kafka2:19093,kafka3:19094 \
+kafka-console-producer --bootstrap-server localhost:9092,kafka2:19093,kafka3:19094 \
                        --topic library-events \
                        --from-beginning
 ```

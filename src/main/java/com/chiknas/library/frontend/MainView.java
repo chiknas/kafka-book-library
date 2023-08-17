@@ -55,7 +55,7 @@ public class MainView extends AppLayout {
 
     H3 newEntry = new H3("New entry");
     IntegerField kafkaPartition = new IntegerField("Kafka message key");
-    TextField name = new TextField("Name");
+    TextField name = new TextField("Title");
     TextField author = new TextField("Author");
     Button submit = new Button("Submit");
     submit.addClickListener((ComponentEventListener<ClickEvent<Button>>) event ->
